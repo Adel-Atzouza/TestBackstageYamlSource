@@ -9,3 +9,24 @@ spec:
     displayName: Admins
   members:
     - user:default/adel.atzouza
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  namespace: default
+  annotations:
+    backstage.io/managed-by-location: googleDirectory:harborn-google
+    backstage.io/managed-by-origin-location: file:harborn-google
+  name: adel.atzouza
+  title: Adel Atzouza
+spec:
+  profile:
+    displayName: Adel Atzouza
+    email: adel.atzouza@harborn.com
+  children: []
+  memberOf:
+    - group:default/admins
+  
+
