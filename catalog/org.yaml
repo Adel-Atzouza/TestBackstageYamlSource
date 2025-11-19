@@ -7,6 +7,7 @@ spec:
   type: role
   profile:
     displayName: Admins
+  children: []
   members:
     - user:default/adel.atzouza
 
@@ -25,7 +26,6 @@ spec:
   profile:
     displayName: Adel Atzouza
     email: adel.atzouza@harborn.com
-  children: []
   memberOf:
     - group:default/admins
   
